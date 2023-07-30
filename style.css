@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.blinkit-navbar{
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position: sticky;
+    top: 0px;
+    height: 86px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.vertical-line{
+    border-left: 1px solid rgb(238, 238, 238);
+    height: 100%;
+
+}
+
+.location>p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.search-bar{
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid rgb(238, 238, 238);
+    padding:10px;
+    width: 40vw;
+}
+.search-bar>input{
+    border: none;
+    width: 95%;
+    background-color: transparent;
+    color: rgb(153, 153, 153);
+}
+.search-bar>input:focus{
+    outline:none;
+}
+.my-scrollable-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 95vw;
+    margin-inline: auto;
+}
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+    /* its a main thing b/w cards white space and 
+    no wrap in next row*/
+}
+.list>div{
+    /* it comes in single line */
+    display: inline-block;
+    margin: 10px;
+}
