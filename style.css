@@ -36,11 +36,16 @@
 .search-bar>input:focus{
     outline:none;
 }
+.my-hero-section{
+    flex-direction: column;
+}
 .my-scrollable-div{
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-x: auto;
+    flex-direction: column;
+    /* overflow makes a scrollble */
     width: 95vw;
     margin-inline: auto;
 }
@@ -55,4 +60,39 @@
     /* it comes in single line */
     display: inline-block;
     margin: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.my-catagories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%vw;
+    margin-inline: auto;
+}
+.my-catagory-div{
+    /* width:85vw;
+    justify-content: center;
+    margin-inline: auto;
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-family: Okra-Medium;
+    font-weight: 600;
+    line-height: 32px; */
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 16px 0px;
+
+}
+.my-catagory-div>h1{
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-family: Okra-Medium;
+    font-weight: 600;
+    line-height: 32px;
 }
