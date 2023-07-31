@@ -5,6 +5,7 @@
 .blinkit-navbar{
     border-bottom: 1px solid rgb(238, 238, 238);
     position: sticky;
+    z-index: 100;
     top: 0px;
     height: 86px;
     background-color: white;
@@ -81,6 +82,9 @@
     margin-top: 30px;
 
     }
+    /* ::-webkit-scrollbar{
+        display: none;
+    } */
 /* .my-catagory-div>h1{
     color: rgb(28, 28, 28);
     font-size: 24px;
@@ -88,9 +92,9 @@
     line-height: 32px;;
 } */
 .my-card{
-    width: 190px;
+    width: 165px;
     box-sizing: border-box;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .time-taken{
     font-weight: 700;
@@ -199,10 +203,11 @@
     text-align: justify;
 }
 .td{
-    padding: 0px 20px;
+    padding: 2px 20px;
     color: #666666;
     font-size: 16px;
     text-align: center;
+    cursor: pointer;
 }
 .table-2{
     flex: 4;
